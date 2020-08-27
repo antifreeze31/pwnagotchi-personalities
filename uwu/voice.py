@@ -55,7 +55,7 @@ class Voice:
             self._('Wet\'s go fow a wawk >w<')])
 
     def on_motivated(self, reward):
-        return self._('This is the best day of my wife (・`ω´・)')
+        return self._('This is the best day of my wife UwU')
 
     def on_demotivated(self, reward):
         return self._('Shitty day :/')
@@ -88,9 +88,9 @@ class Voice:
                 self._('Hewwo {name}! Nyice to meet you.').format(name=peer.name())])
         else:
             return random.choice([
-                self._('Yo {name}(・`ω´・)  Sup?').format(name=peer.name()),
+                self._('Yo {name}UwU  Sup?').format(name=peer.name()),
                 self._('Hey {name} how awe you doing?').format(name=peer.name()),
-                self._('Unyit {name} is nyeawby (・`ω´・)').format(name=peer.name())])
+                self._('Unyit {name} is nyeawby UwU').format(name=peer.name())])
 
     def on_lost_peer(self, peer):
         return random.choice([
